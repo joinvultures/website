@@ -2,8 +2,8 @@
   "name": "Holly",
   "version": "1.0.0",
   "description": "Vultures",
+  "private": true,
   "author": "",
-  "license": "GPLv3",
   "scripts": {
     "clean": "rimraf dist/{css/*,js/*,images/*}",
     "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
