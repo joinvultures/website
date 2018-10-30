@@ -12,8 +12,8 @@ $color: (
 			2i: rgba(#fff, 0.8)
 		),
 	bg: (1: #ffffff, 2: #f5f9fc, 3: #dde7ef),
-	primary: (1: #4866ff, 2: #dad8ff, 3: #665df0, 4: #4866ff),
-	additional: (1: #4866ff, 2: #4866ff)
+	primary: (1: #00cbb2, 2: #dad8ff, 3: #665df0, 4: #00cbb2),
+	additional: (1: #00cbb2, 2: #00cbb2)
 );
 
 // --------------------------------------------
@@ -36,7 +36,6 @@ $font__sizes: (
 	eta: (15px, 22px, 0px),
 	theta: (14px, 20px, 0px)
 );
-
 $font__scale: (
 	desktop:
 		(

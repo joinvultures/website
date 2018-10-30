@@ -26,8 +26,8 @@
 
 .hero-illustration {
 	position: relative;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	right: -40px;
 
 	&::before {
@@ -39,10 +39,7 @@
 		bottom: -600px;
 		// background: mix(color(primary, 3), color(primary, 1));
 		// background: linear-gradient(to bottom, color(primary, 3) 0, color(primary, 1) 100%);
-		background: linear-gradient(
-				rgba(72, 102, 255, 0.9),
-				rgba(72, 102, 255, 0.9)
-			),
+		background: linear-gradient(rgba(0, 203, 178, 0.9), rgba(0, 203, 178, 0.9)),
 			url(../images/food.png);
 	}
 
@@ -133,8 +130,8 @@
 @include media( '>large' ) {
 	.hero {
 		text-align: left;
-		padding-top: 80px;
-		padding-bottom: 80px;
+		padding-top: 0px;
+		padding-bottom: 0px;
 
 		&::before {
 			top: -80px; /* Header height */
@@ -150,7 +147,7 @@
 
 	.hero-copy {
 		padding-top: 60px;
-		padding-right: 88px;
+		padding-right: 100px;
 		min-width: 600px;
 	}
 

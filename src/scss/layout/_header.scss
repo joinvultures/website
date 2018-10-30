@@ -40,7 +40,7 @@
 			position: absolute;
 			top: -24px; /* header top padding */
 			bottom: 0;
-			left: 648px; /* .hero-copy width + offset */
+			left: 768px; /* .hero-copy width + offset */
 			width: 9999px;
 			height: 100vh;
 			// background: mix(color(primary, 3), color(primary, 1));
@@ -51,9 +51,16 @@
 			// );
 			// background-image: url('../images/food.png');
 			// background-repeat: no-repeat;
+			//
+			//
+			// 			background: linear-gradient(
+			// rgba(72, 102, 255, 0.9),
+			// rgba(72, 102, 255, 0.9)
+			// 	),
+
 			background: linear-gradient(
-					rgba(72, 102, 255, 0.9),
-					rgba(72, 102, 255, 0.9)
+					rgba(0, 203, 178, 0.9),
+					rgba(0, 203, 178, 0.9)
 				),
 				url(../images/food.png);
 		}
